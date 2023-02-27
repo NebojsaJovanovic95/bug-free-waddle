@@ -36,8 +36,7 @@ export const KanbanCard = ({
             transform={style.transform}
             {...listeners}
             {...attributes}
-            ref={setNodeRef}
-            >
+            ref={setNodeRef}>
             <Text>
                 {title}
             </Text>
